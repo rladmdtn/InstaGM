@@ -1,10 +1,78 @@
 h2{
     color:red;
+    
 }
 .highlight{
     border:solid;
+    text-align: center;
 }
 #profile{
     border:solid;
     border-color:blue;
+
+    display: grid;
+    grid-template-columns: 1fr 3.5fr;
+}
+.thumbnail_grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.thumbnail{
+    whidth:100%;
+}
+#stat_bar{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-bottom: 5px solid gray;
+    border-top: 5px solid gray;
+}
+.stat{
+    text-align:center;
+}
+.circle_pic{
+    border: solid white 1px;
+    border-radius: 50%;
+
+    width: 50px;
+    height: 50px;
+    object-fit:cover;
+}
+.highlight_pic{
+    width: 35px;
+    height: 35;
+
+    margin-left:auto;
+    margin-right:auto;
+}
+#height_arae{
+    display: grid;
+    grid-template-columns: 45px 45px 1fr;
+}
+#profile_info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    height: 50px;
+}
+#id{
+    font-size: 18px;
+    font-weight: 100;
+}
+button{
+    height: 80%;
+    width: 95%;
+
+    font-size: 10px;
+    background: white;
+    border: dolid gray 1px;
+    border-radius: 3px;
+
+}
+#top{
+    display:grid;
+    grid-template-columns: 4fr 7fr 4fr;
+    height: 30px;
 }

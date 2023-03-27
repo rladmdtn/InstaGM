@@ -3,17 +3,16 @@
     <head><link href = "style.css" rel = "stylesheet"></head>
     <body>
 
-        <div>
+        <div id = "top">
         <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"/>
         
         <input value = "검색">
         </div>
 
         <div id = "profile">
-             <img src="image/profile.jpg"width="50px"/>
-             
-            <div>
-                 <h2>half_bottle</h2>
+             <img class = "circle_pic" src="image/profile.jpg"  width = "50px">
+            <div id = "profile_info">
+                 <h2 id = "id">half_bottle</h2>
                  <button>프로필 편집</button>
              </div>
         </div>
@@ -31,48 +30,57 @@
             </p>
         </div>
         <div>
-            <div>
+            <div id = "height_area">
                 <div class = "highlight">
-            <img src="image/h1.jpg"height="35px"/>
-                
+                    <div class = "highlight_pic">
+                        <img class = "circle_pic" src="image/h1.jpg"height="35px"/>
+                    </div>
+                        <div>
+                        ✌🤞
+                        </div>
+                </div>
                 <div>
-                    ✌🤞
+                    <div class = "highlight">
+                    <div class = "highlight_pic">
+                        <img class = "circle_pic" src="image/h2.jpg"height="35px"/>
+                    </div>
+                        <div>
+                        👍
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div>
-                <div class = "highlight">
-            <img src="image/h2.jpg"height="35px"/>
-                
-                <div>
-                    👍
-                </div>
-            </div>
-        </div>
-        <div>
-            <div>
+        <div id ="stat_bar">
+            <div class ="stat">
                 게시물<br/>
                 133
             </div>
-            <div>
+            <div class ="stat">
                 팔로워<br/>
                 408
             </div>
-            <div>
+            <div class ="stat">
                 팔로우<br/>
                 189<br/>
             </div>
         </div>
-        <div>아이콘이 들어갈 자리</div>
+        <div style="font-size: 20px" >아이콘이 들어갈 자리</div>
         <div>
-            <img src="image/thumbnails/1.jpg"width="32%"/>
-            <img src="image/thumbnails/2.jpg"width="32%"/>
-            <img src="image/thumbnails/3.jpg"width="32%"/>
-            <img src="image/thumbnails/4.jpg"width="32%"/>
-            <img src="image/thumbnails/5.jpg"width="32%"/>
-            <img src="image/thumbnails/6.jpg"width="32%"/>
-            <img src="image/thumbnails/7.jpg"width="32%"/>
-            <img src="image/thumbnails/8.jpg"width="32%"/>
-            <img src="image/thumbnails/9.jpg"width="32%"/>
+            <div class = "thumbnail_grid">
+                <img src="image/thumbnails/1.jpg" class = "thumbnail" />
+                <img src="image/thumbnails/2.jpg" class = "thumbnail"/>
+                <img src="image/thumbnails/3.jpg" class = "thumbnail"/>
+            </div>
+            <div class = "thumbnail_grid">
+                <img src="image/thumbnails/4.jpg" class = "thumbnail"/>
+                <img src="image/thumbnails/5.jpg" class = "thumbnail"/>
+                <img src="image/thumbnails/6.jpg" class = "thumbnail"/>
+            </div>
+            <div class = "thumbnail_grid">
+                <img src="image/thumbnails/7.jpg" class = "thumbnail"/>
+                <img src="image/thumbnails/8.jpg" class = "thumbnail"/>
+                <img src="image/thumbnails/9.jpg" class = "thumbnail"/>
+            </div>
         </div>
     </body>
 </html>
