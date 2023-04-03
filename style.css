@@ -1,10 +1,7 @@
 body{
     font-size: 3vw;
 }
-h2{
-    color:red;
-    
-}
+
 #profile{
 
     display: grid;
@@ -13,9 +10,6 @@ h2{
 #profile_pic{
     width: 15vw;
     height: 15vw;
-
-    margin-left:auto;
-    margin-right:auto;
 }
 .thumbnail_grid{
     display:grid;
@@ -60,7 +54,7 @@ h2{
 }
 #profile_info{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 
     height: 15vw;
 }
@@ -108,7 +102,7 @@ button{
     (250,250,250);
 
 
-    border-bottom: solid gray 0.1px;
+    border-bottom: solid gray 1px;
     border-radius: 3px;
 
     font-size: 3vw;
